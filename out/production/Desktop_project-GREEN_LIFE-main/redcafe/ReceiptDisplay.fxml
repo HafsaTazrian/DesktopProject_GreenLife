@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" alignment="CENTER" prefHeight="600.0" prefWidth="500.0" fx:controller="redcafe.ReceiptDisplayController">
+    <Label text="Receipt" />
+
+    <TextArea fx:id="yourNewID" editable="false" wrapText="true" VBox.vgrow="ALWAYS" >
+        <VBox.margin>
+            <Insets top="10" right="10" bottom="10" left="10"/>
+        </VBox.margin>
+    </TextArea>
+</VBox>
